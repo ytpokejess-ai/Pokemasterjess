@@ -1,0 +1,1206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Equipos Competitivos</title>
+<meta name="theme-color" content="#101828">
+<link rel="icon" href="data:image/png;base64,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">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<style>
+:root{--bg:#eef2f6;--card:#fff;--ink:#101828;--mute:#5b6678;--line:#d6dde6;--red:#d7263d;--yel:#ffc857;--teal:#14806f;--on-red:#fff;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1622;--card:#182233;--ink:#eef2f8;--mute:#9aa7bb;--line:#2b3850;--red:#ff5468;--teal:#3cc4ae}}
+:root[data-theme="dark"]{--bg:#0f1622;--card:#182233;--ink:#eef2f8;--mute:#9aa7bb;--line:#2b3850;--red:#ff5468;--teal:#3cc4ae}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.5 "Source Sans 3",system-ui,sans-serif}
+h1,h2,h3{font-family:"Bricolage Grotesque",system-ui,sans-serif;margin:0;line-height:1.1}
+.wrap{max-width:760px;margin:0 auto;padding:20px 16px 48px}
+header{padding:8px 0 18px;border-bottom:4px solid var(--red);position:relative}
+header::after{content:"";position:absolute;right:0;bottom:-14px;width:24px;height:24px;border-radius:50%;background:var(--bg);border:4px solid var(--red)}
+h1{font-size:clamp(30px,8vw,46px);font-weight:800;letter-spacing:-.02em}
+header p{margin:8px 0 0;color:var(--mute);max-width:52ch}
+nav{display:flex;gap:6px;overflow-x:auto;margin:28px 0 18px;-webkit-overflow-scrolling:touch}
+nav button{font:600 15px "Source Sans 3",sans-serif;padding:9px 14px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer;white-space:nowrap}
+nav button[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--yel);outline-offset:2px}
+[hidden]{display:none!important}
+h2{font-size:24px;font-weight:700;margin-bottom:6px}
+.lead{color:var(--mute);margin:0 0 16px;max-width:60ch}
+.team{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:12px}
+.team h3{font-size:18px;font-weight:700}
+.fmt{color:var(--teal);font-weight:600;font-size:14px;margin:2px 0 10px}
+.mons{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 10px;padding:0;list-style:none}
+.mons li{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:4px 10px;font-weight:600;font-size:15px}
+.btn{font:600 14px "Source Sans 3",sans-serif;padding:8px 14px;border-radius:8px;border:1px solid var(--line);background:transparent;color:var(--ink);cursor:pointer}
+.btn.main{background:var(--red);color:var(--on-red);border-color:var(--red)}
+.btn.del{color:var(--red)}
+form{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:20px;display:grid;gap:12px}
+label{display:grid;gap:4px;font-weight:600;font-size:14px}
+input,select{font:400 16px "Source Sans 3",sans-serif;padding:9px 10px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);width:100%}
+.six{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+@media(min-width:520px){.six{grid-template-columns:repeat(3,1fr)}}
+.empty{color:var(--mute);padding:18px;border:1px dashed var(--line);border-radius:12px}
+.links{display:grid;gap:10px}
+.link{display:block;background:var(--card);border:1px solid var(--line);border-left:5px solid var(--yel);border-radius:10px;padding:12px 14px;color:inherit;text-decoration:none}
+.link b{font-family:"Bricolage Grotesque",sans-serif;font-size:17px;display:block}
+.link span{color:var(--mute);font-size:15px}
+.link:hover{border-left-color:var(--red)}
+.note{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-bottom:16px;font-size:15px;color:var(--mute)}
+footer{margin-top:32px;padding-top:16px;border-top:1px solid var(--line);color:var(--mute);font-size:14px}footer a{color:inherit}
+h2.sub{font-size:19px;margin:24px 0 10px}
+
+/* Pokédex */
+.pokedex-search{margin-bottom:12px}
+.pokedex-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:8px}
+.pk-card{background:var(--card);border:2px solid var(--line);border-radius:12px;padding:8px 6px;text-align:center;cursor:pointer;transition:border-color .15s,transform .1s;user-select:none}
+.pk-card:hover{border-color:var(--teal)}
+.pk-card.selected{border-color:var(--red);background:color-mix(in srgb,var(--red) 12%,var(--card))}
+.pk-card img{width:64px;height:64px;image-rendering:pixelated;display:block;margin:0 auto 4px}
+.pk-card .pk-name{font-size:12px;font-weight:600;line-height:1.2;word-break:break-word}
+.pk-card .pk-id{font-size:11px;color:var(--mute)}
+.selected-bar{position:sticky;bottom:0;background:var(--card);border:1px solid var(--line);border-radius:12px 12px 0 0;padding:12px 14px;margin:16px -16px 0;box-shadow:0 -4px 20px rgba(0,0,0,.08);z-index:10}
+.selected-bar .sel-mons{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px;min-height:28px}
+.selected-bar .sel-mons span{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:3px 8px;font-size:13px;font-weight:600}
+.selected-bar .sel-actions{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.selected-bar .count{font-size:14px;color:var(--mute);margin-right:auto}
+.pokedex-status{color:var(--mute);font-size:14px;margin-bottom:10px}
+.load-more{display:block;width:100%;margin-top:12px;padding:12px;font:600 15px "Source Sans 3",sans-serif;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+.pk-card .pk-actions{display:flex;justify-content:center;gap:4px;margin-top:4px}
+.pk-card .pk-info{font-size:11px;padding:2px 6px;border-radius:6px;border:1px solid var(--line);background:var(--bg);color:var(--mute);cursor:pointer}
+.pk-card .pk-info:hover{border-color:var(--teal);color:var(--ink)}
+
+/* Modal de stats */
+.modal-bg{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:100;display:flex;align-items:flex-end;justify-content:center;padding:0;animation:fadeIn .15s ease}
+@media(min-width:520px){.modal-bg{align-items:center;padding:16px}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+.modal{background:var(--card);border-radius:16px 16px 0 0;width:100%;max-width:420px;max-height:90vh;overflow:auto;padding:20px 18px 24px;box-shadow:0 -8px 40px rgba(0,0,0,.25)}
+@media(min-width:520px){.modal{border-radius:16px}}
+.modal-head{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.modal-head img{width:80px;height:80px;image-rendering:pixelated}
+.modal-head h3{font-size:22px;font-weight:800;margin:0}
+.modal-head .modal-id{color:var(--mute);font-size:14px}
+.modal-types{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0 14px}
+.modal-types span{padding:3px 10px;border-radius:999px;font-size:12px;font-weight:700;text-transform:uppercase;color:#fff}
+.type-normal{background:#a8a878}.type-fire{background:#f08030}.type-water{background:#6890f0}.type-electric{background:#f8d030;color:#333}.type-grass{background:#78c850}.type-ice{background:#98d8d8;color:#333}.type-fighting{background:#c03028}.type-poison{background:#a040a0}.type-ground{background:#e0c068;color:#333}.type-flying{background:#a890f0}.type-psychic{background:#f85888}.type-bug{background:#a8b820}.type-rock{background:#b8a038}.type-ghost{background:#705898}.type-dragon{background:#7038f8}.type-dark{background:#705848}.type-steel{background:#b8b8d0;color:#333}.type-fairy{background:#ee99ac;color:#333}
+.stat-row{display:grid;grid-template-columns:52px 1fr 36px;gap:8px;align-items:center;margin-bottom:6px;font-size:14px}
+.stat-row .stat-name{font-weight:600;color:var(--mute)}
+.stat-bar{height:10px;background:var(--bg);border-radius:5px;overflow:hidden}
+.stat-bar > i{display:block;height:100%;border-radius:5px;background:var(--teal)}
+.stat-row .stat-val{font-weight:700;text-align:right}
+.stat-total{margin-top:10px;padding-top:10px;border-top:1px solid var(--line);font-weight:700;display:flex;justify-content:space-between}
+.modal-note{font-size:13px;color:var(--mute);margin:12px 0 0}
+.modal-actions{display:flex;gap:8px;margin-top:16px;flex-wrap:wrap}
+.modal-close{position:absolute;top:12px;right:14px;background:none;border:none;font-size:22px;cursor:pointer;color:var(--mute);line-height:1}
+.modal-wrap{position:relative}
+.modal-loading,.modal-error{padding:24px;text-align:center;color:var(--mute)}
+.evo-stage{border:1px solid var(--line);border-radius:12px;padding:12px;margin-bottom:12px;background:var(--bg)}
+.evo-stage.current{border-color:var(--teal);box-shadow:0 0 0 1px var(--teal)}
+.evo-stage.final{border-color:var(--red)}
+.evo-stage-head{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.evo-stage-head img{width:56px;height:56px;image-rendering:pixelated}
+.evo-stage-head h4{font-size:16px;font-weight:700;margin:0}
+.evo-stage-head .evo-meta{font-size:12px;color:var(--mute)}
+.evo-badge{display:inline-block;font-size:11px;font-weight:700;padding:2px 7px;border-radius:999px;margin-left:6px}
+.evo-badge.final{background:var(--red);color:var(--on-red)}
+.evo-badge.base{background:var(--line);color:var(--ink)}
+.evo-stage .stat-row{grid-template-columns:48px 1fr 32px;font-size:13px;margin-bottom:4px}
+.evo-stage .stat-bar{height:8px}
+.evo-stage .stat-total{margin-top:6px;padding-top:6px;font-size:13px}
+.evo-arrow{text-align:center;color:var(--mute);font-size:18px;margin:-4px 0 8px}
+
+.yt-card{background:var(--card);border:1px solid var(--line);border-left:5px solid #ff0000;border-radius:12px;padding:16px;margin-bottom:20px}
+.yt-card .yt-badge{display:inline-block;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:#ff0000;margin-bottom:6px}
+.yt-card h3{font-size:22px;margin:0 0 6px}
+.yt-card p{color:var(--mute);margin:0 0 12px;font-size:15px}
+.yt-card .btn{display:inline-block;text-decoration:none}
+textarea{font:400 16px "Source Sans 3",sans-serif;padding:9px 10px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);width:100%;resize:vertical;min-height:72px}
+.com-post{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:10px}
+.com-post h3{font-size:17px;margin:0 0 4px}
+.com-post .com-meta{font-size:13px;color:var(--mute);margin-bottom:8px}
+.com-post .com-team{font-weight:600;font-size:14px;margin:6px 0}
+.com-post .com-msg{font-size:15px;margin:8px 0 0}
+.com-post .btn.del{margin-top:8px}
+
+/* Torneos y códigos */
+.code-box{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:8px 0}
+.code-box .code{font:700 18px ui-monospace,monospace;letter-spacing:.08em;background:var(--bg);border:2px dashed var(--teal);border-radius:8px;padding:6px 12px;color:var(--teal)}
+.tour-card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:12px}
+.tour-card h3{font-size:18px;margin:0 0 4px}
+.tour-meta{font-size:13px;color:var(--mute);margin-bottom:8px}
+.tour-actions{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.standings{width:100%;border-collapse:collapse;font-size:14px;margin:12px 0}
+.standings th,.standings td{padding:8px 6px;text-align:left;border-bottom:1px solid var(--line)}
+.standings th{font-weight:700;color:var(--mute);font-size:12px;text-transform:uppercase}
+.standings .rank{font-weight:800;width:28px}
+.standings input{width:56px;padding:4px 6px;font-size:14px;text-align:center}
+.participant-list{list-style:none;padding:0;margin:0 0 12px}
+.participant-list li{display:flex;align-items:center;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--line);gap:8px}
+.participant-list .p-name{font-weight:600}
+.badge{display:inline-block;font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;background:var(--teal);color:#fff}
+.badge.creator{background:var(--red)}
+.badge.you{background:var(--ink)}
+.tour-detail{margin-top:16px}
+.join-row{display:flex;gap:8px;flex-wrap:wrap;align-items:flex-end}
+.join-row label{flex:1;min-width:140px}
+.team .code-mini{font:600 13px ui-monospace,monospace;color:var(--teal);margin-top:6px}
+.official-live{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--red);border-radius:12px;padding:14px 16px;margin-bottom:16px}
+.official-live h3{font-size:17px;margin:0 0 6px}
+.official-live p{margin:0 0 10px;color:var(--mute);font-size:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<h1>Equipos Competitivos</h1>
+<p>Guarda tus equipos, crea torneos con códigos para invitar amigos, consulta resultados oficiales y arma equipos desde la Pokédex.</p>
+</header>
+
+<nav role="tablist" aria-label="Secciones">
+<button role="tab" data-tab="equipos">Mis equipos</button>
+<button role="tab" data-tab="pokedex">Pokédex</button>
+<button role="tab" data-tab="usados">Equipos de ejemplo</button>
+<button role="tab" data-tab="torneos">Torneos</button>
+<button role="tab" data-tab="comunidad">Comunidad</button>
+<button role="tab" data-tab="campeonatos">Campeonatos</button>
+<button role="tab" data-tab="enlaces">Páginas oficiales</button>
+</nav>
+
+<section id="equipos">
+<h2>Mis equipos</h2>
+<p class="lead">Crea equipos y comparte el código con tus amigos para que lo copien a su lista. Todo se guarda en este navegador.</p>
+<form id="f">
+<label>Nombre del equipo<input id="n" required maxlength="40" placeholder="Ej. Lluvia ofensiva"></label>
+<label>Formato
+<select id="fm">
+<option>VGC (dobles)</option><option>Smogon OU</option><option>Smogon UU</option><option>Liga / Alto Mando</option><option>Casual</option><option>Otro</option>
+</select></label>
+<div class="six" id="slots"></div>
+<button class="btn main" type="submit">Guardar equipo</button>
+</form>
+<h2 class="sub">Unirse a un equipo con código</h2>
+<div class="join-row" style="margin-bottom:16px">
+<label>Código del equipo<input id="team-join-code" maxlength="8" placeholder="Ej. AB12CD" style="text-transform:uppercase"></label>
+<button type="button" class="btn main" id="team-join-btn">Unirme / Copiar equipo</button>
+</div>
+<div id="mine"></div>
+</section>
+
+<section id="pokedex" hidden>
+<h2>Pokédex</h2>
+<p class="lead">Busca y selecciona hasta 6 Pokémon para armar un equipo. Luego guárdalo en Mis equipos.</p>
+<div class="pokedex-search">
+<input type="search" id="pk-search" placeholder="Buscar Pokémon (nombre o número)..." autocomplete="off">
+</div>
+<p class="pokedex-status" id="pk-status">Cargando lista...</p>
+<div class="pokedex-grid" id="pk-grid"></div>
+<button type="button" class="load-more" id="pk-more" hidden>Cargar más</button>
+
+<div class="selected-bar" id="sel-bar" hidden>
+<div class="sel-mons" id="sel-mons"></div>
+<div class="sel-actions">
+<span class="count" id="sel-count">0 / 6</span>
+<button type="button" class="btn" id="sel-clear">Limpiar</button>
+<button type="button" class="btn main" id="sel-create">Crear equipo</button>
+</div>
+</div>
+</section>
+
+<!-- Modal de estadísticas -->
+<div class="modal-bg" id="stat-modal" hidden>
+<div class="modal modal-wrap">
+<button type="button" class="modal-close" id="modal-close" aria-label="Cerrar">×</button>
+<div id="modal-body"><div class="modal-loading">Cargando estadísticas…</div></div>
+</div>
+</div>
+
+<section id="usados" hidden>
+<h2>Equipos de ejemplo</h2>
+<p class="lead">Plantillas de arquetipos conocidos para inspirarte. Cópialos a tus equipos y cámbialos.</p>
+<div class="note">Estos son ejemplos, no estadísticas reales. Para ver los Pokémon y equipos más usados ahora mismo, abre Pikalytics o los resultados de Limitless en la pestaña Campeonatos. Comprueba que cada Pokémon sea legal en el formato vigente.</div>
+<div id="ex"></div>
+</section>
+
+<section id="torneos" hidden>
+<h2>Torneos</h2>
+<p class="lead">Crea torneos privados, invita amigos con un código y actualiza clasificaciones. También enlaces a resultados oficiales en vivo.</p>
+
+<div class="official-live">
+  <h3>Resultados oficiales en vivo</h3>
+  <p>Los torneos oficiales de Play! Pokémon y VGC se publican en estas páginas (se actualizan en tiempo real o al terminar cada ronda):</p>
+  <div class="links" style="margin-top:10px">
+    <a class="link" target="_blank" rel="noopener" href="https://play.limitlesstcg.com/tournaments"><b>Limitless · Torneos en vivo</b><span>Resultados, pairings y standings de VGC y TCG.</span></a>
+    <a class="link" target="_blank" rel="noopener" href="https://events.pokemon.com/EventLocator"><b>Play! Pokémon · Event Locator</b><span>Torneos oficiales cerca de ti y resultados.</span></a>
+    <a class="link" target="_blank" rel="noopener" href="https://worlds.pokemon.com"><b>Campeonato Mundial Pokémon</b><span>Calendario, streams y resultados del Worlds.</span></a>
+    <a class="link" target="_blank" rel="noopener" href="https://victoryroad.pro"><b>Victory Road</b><span>Cobertura y análisis de torneos VGC.</span></a>
+  </div>
+</div>
+
+<h2 class="sub">Crear un torneo</h2>
+<form id="tour-form">
+  <label>Nombre del torneo<input id="tour-name" required maxlength="50" placeholder="Ej. Liga de amigos octubre"></label>
+  <label>Formato
+    <select id="tour-fmt">
+      <option>VGC (dobles)</option><option>Smogon OU</option><option>Smogon UU</option>
+      <option>Liga / Alto Mando</option><option>Casual</option><option>TCG</option><option>Otro</option>
+    </select>
+  </label>
+  <label>Tu nombre de entrenador<input id="tour-creator" required maxlength="30" placeholder="Ej. AshKetchum99"></label>
+  <label>Notas (opcional)<input id="tour-notes" maxlength="120" placeholder="Reglas, fecha, enlace a Discord..."></label>
+  <button class="btn main" type="submit">Crear torneo y generar código</button>
+</form>
+
+<h2 class="sub">Unirse con código</h2>
+<div class="join-row" style="margin-bottom:16px">
+  <label>Código del torneo<input id="tour-join-code" maxlength="8" placeholder="Ej. XY9K2P" style="text-transform:uppercase"></label>
+  <label>Tu nombre<input id="tour-join-nick" maxlength="30" placeholder="Tu nick"></label>
+  <button type="button" class="btn main" id="tour-join-btn">Unirme al torneo</button>
+</div>
+
+<div id="tour-list"></div>
+<div id="tour-detail" class="tour-detail" hidden></div>
+</section>
+
+<section id="comunidad" hidden>
+<h2>Comunidad</h2>
+<p class="lead">Comparte tu perfil de entrenador, conecta con otros jugadores y sigue contenido de Pokémon.</p>
+
+<div class="yt-card">
+  <div class="yt-badge">Canal destacado</div>
+  <h3>@YtPOKEJESS</h3>
+  <p>Contenido de Pokémon en YouTube. Suscríbete y activa la campanita.</p>
+  <a class="btn main" target="_blank" rel="noopener" href="https://www.youtube.com/@YtPOKEJESS">Ver canal en YouTube</a>
+</div>
+
+<h2 class="sub">Tu perfil de comunidad</h2>
+<p class="lead" style="margin-bottom:10px">Rellena tus datos. Se guardan en este navegador y aparecen abajo como publicación local.</p>
+<form id="com-form">
+  <label>Nombre de entrenador / nick<input id="com-nick" required maxlength="30" placeholder="Ej. AshKetchum99"></label>
+  <label>Ciudad o país (opcional)<input id="com-loc" maxlength="40" placeholder="Ej. Madrid, España"></label>
+  <label>Formato favorito
+    <select id="com-fmt">
+      <option>VGC</option><option>Smogon OU</option><option>Smogon UU</option>
+      <option>Liga / Alto Mando</option><option>Casual</option><option>TCG</option><option>Otro</option>
+    </select>
+  </label>
+  <label>Equipo o Pokémon favoritos<input id="com-team" maxlength="80" placeholder="Ej. Incineroar, Flutter Mane, Raging Bolt..."></label>
+  <label>Showdown / redes (opcional)<input id="com-social" maxlength="60" placeholder="Usuario de Showdown, Twitter, Discord..."></label>
+  <label>Mensaje para la comunidad<textarea id="com-msg" maxlength="200" rows="3" placeholder="Busco rivales, consejos de teambuilding, etc."></textarea></label>
+  <button class="btn main" type="submit">Publicar en comunidad</button>
+</form>
+<div id="com-list"></div>
+
+<h2 class="sub">Comunidades externas</h2>
+<div class="links">
+  <a class="link" target="_blank" rel="noopener" href="https://www.youtube.com/@YtPOKEJESS"><b>YouTube · @YtPOKEJESS</b><span>Canal destacado de la app.</span></a>
+  <a class="link" target="_blank" rel="noopener" href="https://play.pokemonshowdown.com"><b>Pokémon Showdown</b><span>Batallas online y chat de la comunidad.</span></a>
+  <a class="link" target="_blank" rel="noopener" href="https://www.reddit.com/r/VGC"><b>Reddit · r/VGC</b><span>Discusión competitiva VGC.</span></a>
+  <a class="link" target="_blank" rel="noopener" href="https://www.reddit.com/r/stunfisk"><b>Reddit · r/stunfisk</b><span>Teambuilding y metagame Smogon.</span></a>
+  <a class="link" target="_blank" rel="noopener" href="https://play.limitlesstcg.com"><b>Limitless</b><span>Torneos, equipos y rankings.</span></a>
+  <a class="link" target="_blank" rel="noopener" href="https://discord.gg/pokemon"><b>Discord Pokémon</b><span>Servidores y chats de la comunidad.</span></a>
+</div>
+</section>
+
+<section id="campeonatos" hidden>
+<h2>Campeonatos y resultados en vivo</h2>
+<p class="lead">Sitios oficiales y de la comunidad donde se publican pairings, standings y resultados en tiempo real de torneos Play! Pokémon y VGC.</p>
+<div class="note">Para torneos de amigos o ligas privadas usa la pestaña <b>Torneos</b>: crea uno, comparte el código y actualiza la clasificación tú mismo.</div>
+<div class="links">
+<a class="link" target="_blank" rel="noopener" href="https://play.limitlesstcg.com/tournaments"><b>Limitless · Torneos en vivo</b><span>Resultados, pairings y standings de VGC y TCG al instante.</span></a>
+<a class="link" target="_blank" rel="noopener" href="https://worlds.pokemon.com"><b>Campeonato Mundial Pokémon</b><span>Información oficial, calendario y transmisiones.</span></a>
+<a class="link" target="_blank" rel="noopener" href="https://events.pokemon.com/EventLocator"><b>Buscador de eventos Play! Pokémon</b><span>Torneos oficiales cerca de ti y resultados.</span></a>
+<a class="link" target="_blank" rel="noopener" href="https://victoryroad.pro"><b>Victory Road</b><span>Noticias, resultados y análisis de VGC.</span></a>
+<a class="link" target="_blank" rel="noopener" href="https://pikalytics.com"><b>Pikalytics</b><span>Pokémon, movimientos y objetos más usados.</span></a>
+<a class="link" target="_blank" rel="noopener" href="https://www.twitch.tv/pokemon"><b>Twitch oficial de Pokémon</b><span>Directos de campeonatos.</span></a>
+<a class="link" target="_blank" rel="noopener" href="https://www.youtube.com/pokemon"><b>YouTube oficial de Pokémon</b><span>Repeticiones de finales y torneos.</span></a>
+</div>
+</section>
+
+<section id="enlaces" hidden>
+<h2>Páginas oficiales y de apoyo</h2>
+<p class="lead">Lo esencial para consultar datos y probar equipos.</p>
+<h2 class="sub">Oficiales</h2>
+<div class="links">
+<a class="link" target="_blank" rel="noopener" href="https://www.pokemon.com/es"><b>Pokémon.com</b><span>Sitio oficial en español.</span></a>
+<a class="link" target="_blank" rel="noopener" href="https://www.pokemon.com/es/play-pokemon"><b>Play! Pokémon</b><span>Programa oficial de torneos y ligas.</span></a>
+</div>
+<h2 class="sub">Para armar y probar equipos</h2>
+<div class="links">
+<a class="link" target="_blank" rel="noopener" href="https://play.pokemonshowdown.com"><b>Pokémon Showdown</b><span>Simulador de batallas y constructor de equipos.</span></a>
+<a class="link" target="_blank" rel="noopener" href="https://www.smogon.com"><b>Smogon</b><span>Estrategias, análisis y estadísticas de uso.</span></a>
+<a class="link" target="_blank" rel="noopener" href="https://www.serebii.net"><b>Serebii</b><span>Pokédex, noticias y datos de los juegos.</span></a>
+<a class="link" target="_blank" rel="noopener" href="https://bulbapedia.bulbagarden.net"><b>Bulbapedia</b><span>Enciclopedia comunitaria de Pokémon.</span></a>
+</div>
+</section>
+<footer><p>Herramienta de fans, no oficial. Pokémon y los nombres de los Pokémon son marcas de sus propietarios. Esta app no está afiliada a Nintendo, Game Freak, Creatures ni The Pokémon Company.</p><details><summary>Política de privacidad</summary>
+<h2 class="sub">Política de privacidad</h3>
+<p>Última actualización: 28 de octubre de 2026.</p>
+<h3>Qué datos se guardan</h3>
+<p>Equipos Competitivos guarda los equipos que escribes únicamente en tu dispositivo, dentro del almacenamiento local de la app. No los enviamos a ningún servidor, no creamos cuentas y no recopilamos datos personales.</p>
+<h3>Qué no hacemos</h3>
+<p>La app no usa publicidad, no usa analíticas, no pide permisos del dispositivo y no comparte información con terceros.</p>
+<h3>Enlaces externos</h3>
+<p>La app incluye enlaces a sitios de terceros, como páginas oficiales de torneos y herramientas de equipos. Al abrirlos sales de la app y se aplica la política de privacidad de cada sitio.</p>
+<h3>Cómo borrar tus datos</h3>
+<p>Puedes eliminar cada equipo desde la app. Al desinstalarla o borrar sus datos desde los ajustes de Android, se eliminan todos los equipos guardados.</p>
+<h3>Aviso</h3>
+<p>Esta es una herramienta de fans, no oficial. Pokémon y los nombres de los Pokémon son marcas de sus propietarios. La app no está afiliada a Nintendo, Game Freak, Creatures ni The Pokémon Company.</p>
+<h3>Contacto</h3>
+<p>TU_CORREO@ejemplo.com</p>
+</details></footer>
+</div>
+
+<script>
+(function(){
+var KEY="pkmn-teams";
+var EX=[
+{name:"Trick Room clásico",fmt:"VGC (ejemplo)",mons:["Farigiraf","Torkoal","Amoonguss","Incineroar","Ursaluna","Indeedee"]},
+{name:"Equipo de lluvia",fmt:"VGC (ejemplo)",mons:["Pelipper","Barraskewda","Kingdra","Ludicolo","Rillaboom","Rotom-Wash"]},
+{name:"Balance competitivo",fmt:"Smogon OU (ejemplo)",mons:["Garchomp","Corviknight","Toxapex","Dragapult","Great Tusk","Gholdengo"]},
+{name:"Equipo de sol",fmt:"VGC (ejemplo)",mons:["Torkoal","Venusaur","Rillaboom","Incineroar","Flutter Mane","Landorus-Therian"]},
+{name:"Hyper Offense",fmt:"Smogon OU (ejemplo)",mons:["Dragonite","Gholdengo","Kingambit","Great Tusk","Iron Valiant","Ogerpon-Wellspring"]},
+{name:"Tailwind ofensivo",fmt:"VGC (ejemplo)",mons:["Tornadus","Urshifu-Rapid-Strike","Flutter Mane","Raging Bolt","Incineroar","Landorus-Therian"]},
+{name:"Sand team",fmt:"VGC (ejemplo)",mons:["Tyranitar","Excadrill","Garchomp","Amoonguss","Incineroar","Flutter Mane"]},
+{name:"Stall defensivo",fmt:"Smogon OU (ejemplo)",mons:["Toxapex","Corviknight","Dondozo","Gliscor","Slowking-Galar","Ting-Lu"]},
+{name:"Fake Out core",fmt:"VGC (ejemplo)",mons:["Incineroar","Rillaboom","Urshifu-Rapid-Strike","Flutter Mane","Amoonguss","Landorus-Therian"]},
+{name:"Balance VGC actual",fmt:"VGC (ejemplo)",mons:["Ogerpon-Hearthflame","Raging Bolt","Incineroar","Amoonguss","Flutter Mane","Urshifu-Rapid-Strike"]},
+{name:"Snow / Hail",fmt:"VGC (ejemplo)",mons:["Abomasnow","Baxcalibur","Chien-Pao","Incineroar","Amoonguss","Landorus-Therian"]},
+{name:"Choice Scarf spam",fmt:"Smogon OU (ejemplo)",mons:["Iron Valiant","Gholdengo","Dragonite","Kingambit","Great Tusk","Gliscor"]}
+];
+
+/* Lista amplia de Pokémon (nombres competitivos comunes + National Dex) */
+var POKEDEX=[
+{id:1,n:"Bulbasaur"},{id:2,n:"Ivysaur"},{id:3,n:"Venusaur"},{id:4,n:"Charmander"},{id:5,n:"Charmeleon"},{id:6,n:"Charizard"},
+{id:7,n:"Squirtle"},{id:8,n:"Wartortle"},{id:9,n:"Blastoise"},{id:10,n:"Caterpie"},{id:11,n:"Metapod"},{id:12,n:"Butterfree"},
+{id:25,n:"Pikachu"},{id:26,n:"Raichu"},{id:27,n:"Sandshrew"},{id:28,n:"Sandslash"},{id:29,n:"Nidoran-F"},{id:30,n:"Nidorina"},
+{id:31,n:"Nidoqueen"},{id:32,n:"Nidoran-M"},{id:33,n:"Nidorino"},{id:34,n:"Nidoking"},{id:35,n:"Clefairy"},{id:36,n:"Clefable"},
+{id:37,n:"Vulpix"},{id:38,n:"Ninetales"},{id:39,n:"Jigglypuff"},{id:40,n:"Wigglytuff"},{id:41,n:"Zubat"},{id:42,n:"Golbat"},
+{id:43,n:"Oddish"},{id:44,n:"Gloom"},{id:45,n:"Vileplume"},{id:46,n:"Paras"},{id:47,n:"Parasect"},{id:48,n:"Venonat"},
+{id:49,n:"Venomoth"},{id:50,n:"Diglett"},{id:51,n:"Dugtrio"},{id:52,n:"Meowth"},{id:53,n:"Persian"},{id:54,n:"Psyduck"},
+{id:55,n:"Golduck"},{id:56,n:"Mankey"},{id:57,n:"Primeape"},{id:58,n:"Growlithe"},{id:59,n:"Arcanine"},{id:60,n:"Poliwag"},
+{id:61,n:"Poliwhirl"},{id:62,n:"Poliwrath"},{id:63,n:"Abra"},{id:64,n:"Kadabra"},{id:65,n:"Alakazam"},{id:66,n:"Machop"},
+{id:67,n:"Machoke"},{id:68,n:"Machamp"},{id:69,n:"Bellsprout"},{id:70,n:"Weepinbell"},{id:71,n:"Victreebel"},{id:72,n:"Tentacool"},
+{id:73,n:"Tentacruel"},{id:74,n:"Geodude"},{id:75,n:"Graveler"},{id:76,n:"Golem"},{id:77,n:"Ponyta"},{id:78,n:"Rapidash"},
+{id:79,n:"Slowpoke"},{id:80,n:"Slowbro"},{id:81,n:"Magnemite"},{id:82,n:"Magneton"},{id:83,n:"Farfetchd"},{id:84,n:"Doduo"},
+{id:85,n:"Dodrio"},{id:86,n:"Seel"},{id:87,n:"Dewgong"},{id:88,n:"Grimer"},{id:89,n:"Muk"},{id:90,n:"Shellder"},
+{id:91,n:"Cloyster"},{id:92,n:"Gastly"},{id:93,n:"Haunter"},{id:94,n:"Gengar"},{id:95,n:"Onix"},{id:96,n:"Drowzee"},
+{id:97,n:"Hypno"},{id:98,n:"Krabby"},{id:99,n:"Kingler"},{id:100,n:"Voltorb"},{id:101,n:"Electrode"},{id:102,n:"Exeggcute"},
+{id:103,n:"Exeggutor"},{id:104,n:"Cubone"},{id:105,n:"Marowak"},{id:106,n:"Hitmonlee"},{id:107,n:"Hitmonchan"},{id:108,n:"Lickitung"},
+{id:109,n:"Koffing"},{id:110,n:"Weezing"},{id:111,n:"Rhyhorn"},{id:112,n:"Rhydon"},{id:113,n:"Chansey"},{id:114,n:"Tangela"},
+{id:115,n:"Kangaskhan"},{id:116,n:"Horsea"},{id:117,n:"Seadra"},{id:118,n:"Goldeen"},{id:119,n:"Seaking"},{id:120,n:"Staryu"},
+{id:121,n:"Starmie"},{id:122,n:"Mr-Mime"},{id:123,n:"Scyther"},{id:124,n:"Jynx"},{id:125,n:"Electabuzz"},{id:126,n:"Magmar"},
+{id:127,n:"Pinsir"},{id:128,n:"Tauros"},{id:129,n:"Magikarp"},{id:130,n:"Gyarados"},{id:131,n:"Lapras"},{id:132,n:"Ditto"},
+{id:133,n:"Eevee"},{id:134,n:"Vaporeon"},{id:135,n:"Jolteon"},{id:136,n:"Flareon"},{id:137,n:"Porygon"},{id:138,n:"Omanyte"},
+{id:139,n:"Omastar"},{id:140,n:"Kabuto"},{id:141,n:"Kabutops"},{id:142,n:"Aerodactyl"},{id:143,n:"Snorlax"},{id:144,n:"Articuno"},
+{id:145,n:"Zapdos"},{id:146,n:"Moltres"},{id:147,n:"Dratini"},{id:148,n:"Dragonair"},{id:149,n:"Dragonite"},{id:150,n:"Mewtwo"},
+{id:151,n:"Mew"},{id:152,n:"Chikorita"},{id:153,n:"Bayleef"},{id:154,n:"Meganium"},{id:155,n:"Cyndaquil"},{id:156,n:"Quilava"},
+{id:157,n:"Typhlosion"},{id:158,n:"Totodile"},{id:159,n:"Croconaw"},{id:160,n:"Feraligatr"},{id:161,n:"Sentret"},{id:162,n:"Furret"},
+{id:169,n:"Crobat"},{id:172,n:"Pichu"},{id:173,n:"Cleffa"},{id:174,n:"Igglybuff"},{id:175,n:"Togepi"},{id:176,n:"Togetic"},
+{id:179,n:"Mareep"},{id:180,n:"Flaaffy"},{id:181,n:"Ampharos"},{id:182,n:"Bellossom"},{id:183,n:"Marill"},{id:184,n:"Azumarill"},
+{id:185,n:"Sudowoodo"},{id:186,n:"Politoed"},{id:187,n:"Hoppip"},{id:188,n:"Skiploom"},{id:189,n:"Jumpluff"},{id:190,n:"Aipom"},
+{id:191,n:"Sunkern"},{id:192,n:"Sunflora"},{id:193,n:"Yanma"},{id:194,n:"Wooper"},{id:195,n:"Quagsire"},{id:196,n:"Espeon"},
+{id:197,n:"Umbreon"},{id:198,n:"Murkrow"},{id:199,n:"Slowking"},{id:200,n:"Misdreavus"},{id:201,n:"Unown"},{id:202,n:"Wobbuffet"},
+{id:203,n:"Girafarig"},{id:204,n:"Pineco"},{id:205,n:"Forretress"},{id:206,n:"Dunsparce"},{id:207,n:"Gligar"},{id:208,n:"Steelix"},
+{id:209,n:"Snubbull"},{id:210,n:"Granbull"},{id:211,n:"Qwilfish"},{id:212,n:"Scizor"},{id:213,n:"Shuckle"},{id:214,n:"Heracross"},
+{id:215,n:"Sneasel"},{id:216,n:"Teddiursa"},{id:217,n:"Ursaring"},{id:218,n:"Slugma"},{id:219,n:"Magcargo"},{id:220,n:"Swinub"},
+{id:221,n:"Piloswine"},{id:222,n:"Corsola"},{id:223,n:"Remoraid"},{id:224,n:"Octillery"},{id:225,n:"Delibird"},{id:226,n:"Mantine"},
+{id:227,n:"Skarmory"},{id:228,n:"Houndour"},{id:229,n:"Houndoom"},{id:230,n:"Kingdra"},{id:231,n:"Phanpy"},{id:232,n:"Donphan"},
+{id:233,n:"Porygon2"},{id:234,n:"Stantler"},{id:235,n:"Smeargle"},{id:236,n:"Tyrogue"},{id:237,n:"Hitmontop"},{id:238,n:"Smoochum"},
+{id:239,n:"Elekid"},{id:240,n:"Magby"},{id:241,n:"Miltank"},{id:242,n:"Blissey"},{id:243,n:"Raikou"},{id:244,n:"Entei"},
+{id:245,n:"Suicune"},{id:246,n:"Larvitar"},{id:247,n:"Pupitar"},{id:248,n:"Tyranitar"},{id:249,n:"Lugia"},{id:250,n:"Ho-Oh"},
+{id:251,n:"Celebi"},{id:252,n:"Treecko"},{id:253,n:"Grovyle"},{id:254,n:"Sceptile"},{id:255,n:"Torchic"},{id:256,n:"Combusken"},
+{id:257,n:"Blaziken"},{id:258,n:"Mudkip"},{id:259,n:"Marshtomp"},{id:260,n:"Swampert"},{id:261,n:"Poochyena"},{id:262,n:"Mightyena"},
+{id:263,n:"Zigzagoon"},{id:264,n:"Linoone"},{id:280,n:"Ralts"},{id:281,n:"Kirlia"},{id:282,n:"Gardevoir"},{id:286,n:"Breloom"},
+{id:297,n:"Hariyama"},{id:302,n:"Sableye"},{id:303,n:"Mawile"},{id:306,n:"Aggron"},{id:308,n:"Medicham"},{id:310,n:"Manectric"},
+{id:319,n:"Sharpedo"},{id:323,n:"Camerupt"},{id:324,n:"Torkoal"},{id:330,n:"Flygon"},{id:334,n:"Altaria"},{id:337,n:"Lunatone"},
+{id:338,n:"Solrock"},{id:342,n:"Crawdaunt"},{id:346,n:"Cradily"},{id:348,n:"Armaldo"},{id:350,n:"Milotic"},{id:354,n:"Banette"},
+{id:356,n:"Dusclops"},{id:359,n:"Absol"},{id:362,n:"Glalie"},{id:365,n:"Walrein"},{id:373,n:"Salamence"},{id:376,n:"Metagross"},
+{id:380,n:"Latias"},{id:381,n:"Latios"},{id:382,n:"Kyogre"},{id:383,n:"Groudon"},{id:384,n:"Rayquaza"},{id:385,n:"Jirachi"},
+{id:386,n:"Deoxys"},{id:389,n:"Torterra"},{id:392,n:"Infernape"},{id:395,n:"Empoleon"},{id:405,n:"Luxray"},{id:407,n:"Roserade"},
+{id:411,n:"Bastiodon"},{id:421,n:"Cherrim"},{id:423,n:"Gastrodon"},{id:424,n:"Ambipom"},{id:426,n:"Drifblim"},{id:428,n:"Lopunny"},
+{id:429,n:"Mismagius"},{id:430,n:"Honchkrow"},{id:437,n:"Bronzong"},{id:442,n:"Spiritomb"},{id:445,n:"Garchomp"},{id:448,n:"Lucario"},
+{id:450,n:"Hippowdon"},{id:454,n:"Toxicroak"},{id:460,n:"Abomasnow"},{id:461,n:"Weavile"},{id:462,n:"Magnezone"},{id:463,n:"Lickilicky"},
+{id:464,n:"Rhyperior"},{id:465,n:"Tangrowth"},{id:466,n:"Electivire"},{id:467,n:"Magmortar"},{id:468,n:"Togekiss"},{id:469,n:"Yanmega"},
+{id:470,n:"Leafeon"},{id:471,n:"Glaceon"},{id:472,n:"Gliscor"},{id:473,n:"Mamoswine"},{id:474,n:"Porygon-Z"},{id:475,n:"Gallade"},
+{id:476,n:"Probopass"},{id:477,n:"Dusknoir"},{id:478,n:"Froslass"},{id:479,n:"Rotom"},{id:480,n:"Uxie"},{id:481,n:"Mesprit"},
+{id:482,n:"Azelf"},{id:483,n:"Dialga"},{id:484,n:"Palkia"},{id:485,n:"Heatran"},{id:486,n:"Regigigas"},{id:487,n:"Giratina"},
+{id:488,n:"Cresselia"},{id:489,n:"Phione"},{id:490,n:"Manaphy"},{id:491,n:"Darkrai"},{id:492,n:"Shaymin"},{id:493,n:"Arceus"},
+{id:494,n:"Victini"},{id:497,n:"Serperior"},{id:500,n:"Emboar"},{id:503,n:"Samurott"},{id:530,n:"Excadrill"},{id:531,n:"Audino"},
+{id:534,n:"Conkeldurr"},{id:537,n:"Seismitoad"},{id:542,n:"Leavanny"},{id:545,n:"Scolipede"},{id:547,n:"Whimsicott"},{id:549,n:"Lilligant"},
+{id:553,n:"Krookodile"},{id:555,n:"Darmanitan"},{id:560,n:"Scrafty"},{id:561,n:"Sigilyph"},{id:563,n:"Cofagrigus"},{id:565,n:"Carracosta"},
+{id:567,n:"Archeops"},{id:569,n:"Garbodor"},{id:571,n:"Zoroark"},{id:573,n:"Cinccino"},{id:576,n:"Gothitelle"},{id:579,n:"Reuniclus"},
+{id:584,n:"Vanilluxe"},{id:586,n:"Sawsbuck"},{id:589,n:"Escavalier"},{id:591,n:"Amoonguss"},{id:593,n:"Jellicent"},{id:596,n:"Galvantula"},
+{id:598,n:"Ferrothorn"},{id:601,n:"Klinklang"},{id:604,n:"Eelektross"},{id:606,n:"Beheeyem"},{id:609,n:"Chandelure"},{id:612,n:"Haxorus"},
+{id:614,n:"Beartic"},{id:615,n:"Cryogonal"},{id:617,n:"Accelgor"},{id:620,n:"Mienshao"},{id:621,n:"Druddigon"},{id:623,n:"Golurk"},
+{id:625,n:"Bisharp"},{id:628,n:"Braviary"},{id:630,n:"Mandibuzz"},{id:635,n:"Hydreigon"},{id:637,n:"Volcarona"},{id:638,n:"Cobalion"},
+{id:639,n:"Terrakion"},{id:640,n:"Virizion"},{id:641,n:"Tornadus"},{id:642,n:"Thundurus"},{id:643,n:"Reshiram"},{id:644,n:"Zekrom"},
+{id:645,n:"Landorus"},{id:646,n:"Kyurem"},{id:647,n:"Keldeo"},{id:648,n:"Meloetta"},{id:649,n:"Genesect"},{id:652,n:"Chesnaught"},
+{id:655,n:"Delphox"},{id:658,n:"Greninja"},{id:663,n:"Talonflame"},{id:666,n:"Vivillon"},{id:668,n:"Pyroar"},{id:671,n:"Florges"},
+{id:673,n:"Gogoat"},{id:675,n:"Pangoro"},{id:678,n:"Meowstic"},{id:681,n:"Aegislash"},{id:683,n:"Aromatisse"},{id:685,n:"Slurpuff"},
+{id:687,n:"Malamar"},{id:689,n:"Barbaracle"},{id:691,n:"Dragalge"},{id:693,n:"Clawitzer"},{id:695,n:"Heliolisk"},{id:697,n:"Tyrantrum"},
+{id:699,n:"Aurorus"},{id:700,n:"Sylveon"},{id:701,n:"Hawlucha"},{id:702,n:"Dedenne"},{id:703,n:"Carbink"},{id:706,n:"Goodra"},
+{id:707,n:"Klefki"},{id:709,n:"Trevenant"},{id:711,n:"Gourgeist"},{id:713,n:"Avalugg"},{id:715,n:"Noivern"},{id:716,n:"Xerneas"},
+{id:717,n:"Yveltal"},{id:718,n:"Zygarde"},{id:719,n:"Diancie"},{id:720,n:"Hoopa"},{id:721,n:"Volcanion"},{id:724,n:"Decidueye"},
+{id:727,n:"Incineroar"},{id:730,n:"Primarina"},{id:733,n:"Toucannon"},{id:738,n:"Vikavolt"},{id:740,n:"Crabominable"},{id:743,n:"Ribombee"},
+{id:745,n:"Lycanroc"},{id:748,n:"Toxapex"},{id:750,n:"Mudsdale"},{id:752,n:"Araquanid"},{id:754,n:"Lurantis"},{id:756,n:"Shiinotic"},
+{id:758,n:"Salazzle"},{id:760,n:"Bewear"},{id:763,n:"Tsareena"},{id:764,n:"Comfey"},{id:765,n:"Oranguru"},{id:766,n:"Passimian"},
+{id:768,n:"Golisopod"},{id:770,n:"Palossand"},{id:773,n:"Silvally"},{id:774,n:"Minior"},{id:776,n:"Turtonator"},{id:777,n:"Togedemaru"},
+{id:778,n:"Mimikyu"},{id:779,n:"Bruxish"},{id:780,n:"Drampa"},{id:781,n:"Dhelmise"},{id:784,n:"Kommo-o"},{id:785,n:"Tapu-Koko"},
+{id:786,n:"Tapu-Lele"},{id:787,n:"Tapu-Bulu"},{id:788,n:"Tapu-Fini"},{id:791,n:"Solgaleo"},{id:792,n:"Lunala"},{id:800,n:"Necrozma"},
+{id:801,n:"Magearna"},{id:802,n:"Marshadow"},{id:804,n:"Naganadel"},{id:806,n:"Blacephalon"},{id:807,n:"Zeraora"},{id:809,n:"Melmetal"},
+{id:812,n:"Rillaboom"},{id:815,n:"Cinderace"},{id:818,n:"Inteleon"},{id:820,n:"Greedent"},{id:823,n:"Corviknight"},{id:826,n:"Orbeetle"},
+{id:828,n:"Thievul"},{id:830,n:"Eldegoss"},{id:832,n:"Dubwool"},{id:834,n:"Drednaw"},{id:836,n:"Boltund"},{id:839,n:"Coalossal"},
+{id:841,n:"Flapple"},{id:842,n:"Appletun"},{id:844,n:"Sandaconda"},{id:845,n:"Cramorant"},{id:847,n:"Barraskewda"},{id:849,n:"Toxtricity"},
+{id:851,n:"Centiskorch"},{id:853,n:"Grapploct"},{id:855,n:"Polteageist"},{id:858,n:"Hatterene"},{id:861,n:"Grimmsnarl"},{id:862,n:"Obstagoon"},
+{id:863,n:"Perrserker"},{id:864,n:"Cursola"},{id:865,n:"Sirfetchd"},{id:866,n:"Mr-Rime"},{id:867,n:"Runerigus"},{id:869,n:"Alcremie"},
+{id:870,n:"Falinks"},{id:871,n:"Pincurchin"},{id:873,n:"Frosmoth"},{id:874,n:"Stonjourner"},{id:875,n:"Eiscue"},{id:876,n:"Indeedee"},
+{id:877,n:"Morpeko"},{id:879,n:"Copperajah"},{id:880,n:"Dracozolt"},{id:881,n:"Arctozolt"},{id:882,n:"Dracovish"},{id:883,n:"Arctovish"},
+{id:884,n:"Duraludon"},{id:887,n:"Dragapult"},{id:888,n:"Zacian"},{id:889,n:"Zamazenta"},{id:890,n:"Eternatus"},{id:892,n:"Urshifu"},
+{id:893,n:"Zarude"},{id:894,n:"Regieleki"},{id:895,n:"Regidrago"},{id:896,n:"Glastrier"},{id:897,n:"Spectrier"},{id:898,n:"Calyrex"},
+{id:901,n:"Ursaluna"},{id:902,n:"Basculegion"},{id:903,n:"Sneasler"},{id:904,n:"Overqwil"},{id:905,n:"Enamorus"},
+{id:908,n:"Meowscarada"},{id:911,n:"Skeledirge"},{id:914,n:"Quaquaval"},{id:916,n:"Oinkologne"},{id:918,n:"Spidops"},{id:920,n:"Lokix"},
+{id:925,n:"Maushold"},{id:926,n:"Fidough"},{id:927,n:"Dachsbun"},{id:930,n:"Arboliva"},{id:934,n:"Garganacl"},{id:936,n:"Armarouge"},
+{id:937,n:"Ceruledge"},{id:939,n:"Bellibolt"},{id:941,n:"Kilowattrel"},{id:944,n:"Grafaiai"},{id:948,n:"Brambleghast"},{id:950,n:"Klawf"},
+{id:952,n:"Scovillain"},{id:954,n:"Rabsca"},{id:956,n:"Espathra"},{id:959,n:"Tinkaton"},{id:961,n:"Wugtrio"},{id:962,n:"Bombirdier"},
+{id:964,n:"Palafin"},{id:965,n:"Varoom"},{id:966,n:"Revavroom"},{id:968,n:"Orthworm"},{id:970,n:"Glimmora"},{id:972,n:"Houndstone"},
+{id:973,n:"Flamigo"},{id:975,n:"Cetitan"},{id:977,n:"Dondozo"},{id:978,n:"Tatsugiri"},{id:979,n:"Annihilape"},{id:980,n:"Clodsire"},
+{id:981,n:"Farigiraf"},{id:982,n:"Dudunsparce"},{id:983,n:"Kingambit"},{id:984,n:"Great Tusk"},{id:985,n:"Scream Tail"},
+{id:986,n:"Brute Bonnet"},{id:987,n:"Flutter Mane"},{id:988,n:"Slither Wing"},{id:989,n:"Sandy Shocks"},{id:990,n:"Iron Treads"},
+{id:991,n:"Iron Bundle"},{id:992,n:"Iron Hands"},{id:993,n:"Iron Jugulis"},{id:994,n:"Iron Moth"},{id:995,n:"Iron Thorns"},
+{id:996,n:"Frigibax"},{id:997,n:"Arctibax"},{id:998,n:"Baxcalibur"},{id:999,n:"Gimmighoul"},{id:1000,n:"Gholdengo"},
+{id:1001,n:"Wo-Chien"},{id:1002,n:"Chien-Pao"},{id:1003,n:"Ting-Lu"},{id:1004,n:"Chi-Yu"},{id:1005,n:"Roaring Moon"},
+{id:1006,n:"Iron Valiant"},{id:1007,n:"Koraidon"},{id:1008,n:"Miraidon"},{id:1009,n:"Walking Wake"},{id:1010,n:"Iron Leaves"},
+{id:1011,n:"Dipplin"},{id:1012,n:"Poltchageist"},{id:1013,n:"Sinistcha"},{id:1014,n:"Okidogi"},{id:1015,n:"Munkidori"},
+{id:1016,n:"Fezandipiti"},{id:1017,n:"Ogerpon"},{id:1018,n:"Archaludon"},{id:1019,n:"Hydrapple"},{id:1020,n:"Gouging Fire"},
+{id:1021,n:"Raging Bolt"},{id:1022,n:"Iron Boulder"},{id:1023,n:"Iron Crown"},{id:1024,n:"Terapagos"},{id:1025,n:"Pecharunt"},
+/* Formas populares */
+{id:3,n:"Venusaur-Mega"},{id:6,n:"Charizard-Mega-X"},{id:6,n:"Charizard-Mega-Y"},{id:9,n:"Blastoise-Mega"},
+{id:15,n:"Beedrill-Mega"},{id:18,n:"Pidgeot-Mega"},{id:65,n:"Alakazam-Mega"},{id:80,n:"Slowbro-Mega"},
+{id:94,n:"Gengar-Mega"},{id:115,n:"Kangaskhan-Mega"},{id:127,n:"Pinsir-Mega"},{id:130,n:"Gyarados-Mega"},
+{id:142,n:"Aerodactyl-Mega"},{id:150,n:"Mewtwo-Mega-X"},{id:150,n:"Mewtwo-Mega-Y"},{id:181,n:"Ampharos-Mega"},
+{id:212,n:"Scizor-Mega"},{id:214,n:"Heracross-Mega"},{id:229,n:"Houndoom-Mega"},{id:248,n:"Tyranitar-Mega"},
+{id:254,n:"Sceptile-Mega"},{id:257,n:"Blaziken-Mega"},{id:260,n:"Swampert-Mega"},{id:282,n:"Gardevoir-Mega"},
+{id:302,n:"Sableye-Mega"},{id:303,n:"Mawile-Mega"},{id:306,n:"Aggron-Mega"},{id:308,n:"Medicham-Mega"},
+{id:310,n:"Manectric-Mega"},{id:319,n:"Sharpedo-Mega"},{id:323,n:"Camerupt-Mega"},{id:334,n:"Altaria-Mega"},
+{id:354,n:"Banette-Mega"},{id:359,n:"Absol-Mega"},{id:362,n:"Glalie-Mega"},{id:373,n:"Salamence-Mega"},
+{id:376,n:"Metagross-Mega"},{id:380,n:"Latias-Mega"},{id:381,n:"Latios-Mega"},{id:382,n:"Kyogre-Primal"},
+{id:383,n:"Groudon-Primal"},{id:384,n:"Rayquaza-Mega"},{id:428,n:"Lopunny-Mega"},{id:445,n:"Garchomp-Mega"},
+{id:448,n:"Lucario-Mega"},{id:460,n:"Abomasnow-Mega"},{id:475,n:"Gallade-Mega"},{id:531,n:"Audino-Mega"},
+{id:719,n:"Diancie-Mega"},{id:26,n:"Raichu-Alola"},{id:28,n:"Sandslash-Alola"},{id:38,n:"Ninetales-Alola"},
+{id:50,n:"Diglett-Alola"},{id:51,n:"Dugtrio-Alola"},{id:52,n:"Meowth-Alola"},{id:53,n:"Persian-Alola"},
+{id:74,n:"Geodude-Alola"},{id:75,n:"Graveler-Alola"},{id:76,n:"Golem-Alola"},{id:88,n:"Grimer-Alola"},
+{id:89,n:"Muk-Alola"},{id:103,n:"Exeggutor-Alola"},{id:105,n:"Marowak-Alola"},{id:19,n:"Rattata-Alola"},
+{id:20,n:"Raticate-Alola"},{id:27,n:"Sandshrew-Alola"},{id:37,n:"Vulpix-Alola"},{id:52,n:"Meowth-Galar"},
+{id:77,n:"Ponyta-Galar"},{id:78,n:"Rapidash-Galar"},{id:79,n:"Slowpoke-Galar"},{id:80,n:"Slowbro-Galar"},
+{id:83,n:"Farfetchd-Galar"},{id:110,n:"Weezing-Galar"},{id:122,n:"Mr-Mime-Galar"},{id:144,n:"Articuno-Galar"},
+{id:145,n:"Zapdos-Galar"},{id:146,n:"Moltres-Galar"},{id:199,n:"Slowking-Galar"},{id:222,n:"Corsola-Galar"},
+{id:263,n:"Zigzagoon-Galar"},{id:264,n:"Linoone-Galar"},{id:554,n:"Darumaka-Galar"},{id:555,n:"Darmanitan-Galar"},
+{id:562,n:"Yamask-Galar"},{id:618,n:"Stunfisk-Galar"},{id:479,n:"Rotom-Heat"},{id:479,n:"Rotom-Wash"},
+{id:479,n:"Rotom-Frost"},{id:479,n:"Rotom-Fan"},{id:479,n:"Rotom-Mow"},{id:351,n:"Castform-Sunny"},
+{id:351,n:"Castform-Rainy"},{id:351,n:"Castform-Snowy"},{id:413,n:"Wormadam-Sandy"},{id:413,n:"Wormadam-Trash"},
+{id:421,n:"Cherrim-Sunshine"},{id:492,n:"Shaymin-Sky"},{id:555,n:"Darmanitan-Zen"},{id:641,n:"Tornadus-Therian"},
+{id:642,n:"Thundurus-Therian"},{id:645,n:"Landorus-Therian"},{id:646,n:"Kyurem-Black"},{id:646,n:"Kyurem-White"},
+{id:647,n:"Keldeo-Resolute"},{id:648,n:"Meloetta-Pirouette"},{id:681,n:"Aegislash-Blade"},{id:718,n:"Zygarde-10"},
+{id:718,n:"Zygarde-Complete"},{id:720,n:"Hoopa-Unbound"},{id:745,n:"Lycanroc-Midnight"},{id:745,n:"Lycanroc-Dusk"},
+{id:800,n:"Necrozma-Dusk-Mane"},{id:800,n:"Necrozma-Dawn-Wings"},{id:800,n:"Necrozma-Ultra"},{id:849,n:"Toxtricity-Low-Key"},
+{id:875,n:"Eiscue-Noice"},{id:876,n:"Indeedee-F"},{id:888,n:"Zacian-Crowned"},{id:889,n:"Zamazenta-Crowned"},
+{id:892,n:"Urshifu-Rapid-Strike"},{id:898,n:"Calyrex-Ice"},{id:898,n:"Calyrex-Shadow"},{id:905,n:"Enamorus-Therian"},
+{id:1017,n:"Ogerpon-Wellspring"},{id:1017,n:"Ogerpon-Hearthflame"},{id:1017,n:"Ogerpon-Cornerstone"},
+{id:1024,n:"Terapagos-Terastal"},{id:1024,n:"Terapagos-Stellar"}
+];
+
+function load(){try{var r=localStorage.getItem(KEY);var a=r?JSON.parse(r):[];return Array.isArray(a)?a:[]}catch(e){return []}}
+function save(a){try{localStorage.setItem(KEY,JSON.stringify(a))}catch(e){}}
+var teams=load();
+
+function genCode(len){
+  len=len||6;
+  var chars="ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
+  var s="";
+  for(var i=0;i<len;i++)s+=chars.charAt(Math.floor(Math.random()*chars.length));
+  return s;
+}
+function ensureTeamCode(t){
+  if(!t.code){t.code=genCode(6);return true}
+  return false;
+}
+teams.forEach(function(t){ensureTeamCode(t)});
+save(teams);
+
+function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e}
+function card(t,btns){
+var d=el("div","team");d.appendChild(el("h3",null,t.name));d.appendChild(el("p","fmt",t.fmt));
+var u=el("ul","mons");t.mons.forEach(function(m){u.appendChild(el("li",null,m))});d.appendChild(u);
+if(t.code){
+  var codeEl=el("div","code-mini","Código: "+t.code+" · Comparte este código con amigos");
+  d.appendChild(codeEl);
+}
+btns.forEach(function(b){d.appendChild(b)});return d}
+function renderMine(){
+var box=document.getElementById("mine");box.textContent="";
+if(!teams.length){box.appendChild(el("div","empty","Aún no has guardado equipos. Rellena el formulario, usa la Pokédex o copia uno desde Equipos de ejemplo."));return}
+teams.forEach(function(t,i){
+  ensureTeamCode(t);
+  var copy=el("button","btn","Copiar código");copy.type="button";
+  copy.onclick=function(){
+    try{navigator.clipboard.writeText(t.code);copy.textContent="¡Copiado!";setTimeout(function(){copy.textContent="Copiar código"},1500)}
+    catch(e){prompt("Copia este código:",t.code)}
+  };
+  var b=el("button","btn del","Eliminar");b.type="button";
+  b.onclick=function(){teams.splice(i,1);save(teams);renderMine()};
+  box.appendChild(card(t,[copy,b]));
+});
+save(teams);
+}
+function renderEx(){
+var box=document.getElementById("ex");
+EX.forEach(function(t){
+var b=el("button","btn","Copiar a mis equipos");b.type="button";
+b.onclick=function(){teams.unshift({name:t.name,fmt:t.fmt.replace(" (ejemplo)",""),mons:t.mons.slice(),code:genCode(6)});save(teams);renderMine();b.textContent="Copiado";go("equipos")};
+box.appendChild(card(t,[b]))})}
+
+var slots=document.getElementById("slots");
+for(var i=1;i<=6;i++){var l=el("label",null,"Pokémon "+i);var inp=document.createElement("input");inp.maxLength=24;inp.className="slot";l.appendChild(inp);slots.appendChild(l)}
+document.getElementById("f").addEventListener("submit",function(e){
+e.preventDefault();
+var mons=[].map.call(document.querySelectorAll(".slot"),function(x){return x.value.trim()}).filter(Boolean);
+if(!mons.length)return;
+var nt={name:document.getElementById("n").value.trim(),fmt:document.getElementById("fm").value,mons:mons,code:genCode(6)};
+teams.unshift(nt);save(teams);renderMine();
+e.target.reset()});
+
+/* Unirse a equipo por código */
+document.getElementById("team-join-btn").onclick=function(){
+  var code=(document.getElementById("team-join-code").value||"").trim().toUpperCase();
+  if(!code||code.length<4){alert("Introduce un código válido");return}
+  var found=teams.find(function(t){return t.code===code});
+  if(found){alert("Ya tienes este equipo en tu lista: "+found.name);return}
+  /* Buscar en torneos / equipos compartidos locales o pedir datos */
+  var shared=null;
+  try{
+    var raw=localStorage.getItem("pkmn-shared-teams");
+    var map=raw?JSON.parse(raw):{};
+    shared=map[code]||null;
+  }catch(e){}
+  if(!shared){
+    alert("No se encontró un equipo con el código "+code+" en este dispositivo.\n\nPide al dueño que te envíe el código y que el equipo esté guardado aquí, o importa un JSON compartido. Los códigos de equipos funcionan entre personas cuando ambas tienen el equipo guardado (puedes copiar el código y recrearlo).");
+    return;
+  }
+  teams.unshift({name:shared.name,fmt:shared.fmt,mons:shared.mons.slice(),code:code});
+  save(teams);renderMine();
+  document.getElementById("team-join-code").value="";
+  alert("Equipo «"+shared.name+"» añadido a tu lista.");
+};
+/* Publicar equipos en un mapa de códigos para que otros en el mismo navegador / tras export puedan unirse */
+function publishTeamCodes(){
+  try{
+    var map={};
+    var raw=localStorage.getItem("pkmn-shared-teams");
+    if(raw)map=JSON.parse(raw)||{};
+    teams.forEach(function(t){if(t.code)map[t.code]={name:t.name,fmt:t.fmt,mons:t.mons.slice()}});
+    localStorage.setItem("pkmn-shared-teams",JSON.stringify(map));
+  }catch(e){}
+}
+publishTeamCodes();
+var _oldSave=save;
+save=function(a){_oldSave(a);publishTeamCodes()};
+
+/* ===== Pokédex ===== */
+var selected=[];
+var pageSize=48;
+var currentFilter="";
+var shown=0;
+var statCache={};
+
+function spriteUrl(id){
+  return "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/"+id+".png";
+}
+function apiName(n){
+  // Convert "Landorus-Therian" → "landorus-therian", "Mr-Mime" → "mr-mime"
+  return n.toLowerCase().replace(/ /g,"-");
+}
+function displayName(api){
+  return api.split("-").map(function(w){return w.charAt(0).toUpperCase()+w.slice(1)}).join("-");
+}
+
+function updateSelBar(){
+  var bar=document.getElementById("sel-bar");
+  var monsEl=document.getElementById("sel-mons");
+  var countEl=document.getElementById("sel-count");
+  if(!selected.length){bar.hidden=true;return}
+  bar.hidden=false;
+  monsEl.textContent="";
+  selected.forEach(function(n){
+    var s=el("span",null,n);
+    s.title="Clic para quitar";
+    s.style.cursor="pointer";
+    s.onclick=function(){toggleSelect(n)};
+    monsEl.appendChild(s);
+  });
+  countEl.textContent=selected.length+" / 6";
+  document.getElementById("sel-create").disabled=selected.length===0;
+}
+
+function toggleSelect(name){
+  var i=selected.indexOf(name);
+  if(i>=0){selected.splice(i,1)}
+  else if(selected.length<6){selected.push(name)}
+  else{return}
+  updateSelBar();
+  document.querySelectorAll(".pk-card").forEach(function(c){
+    c.classList.toggle("selected",selected.indexOf(c.dataset.name)>=0);
+  });
+}
+
+function filteredList(){
+  var q=currentFilter.toLowerCase().trim();
+  if(!q)return POKEDEX.slice();
+  return POKEDEX.filter(function(p){
+    return p.n.toLowerCase().indexOf(q)>=0 || String(p.id).indexOf(q)>=0;
+  });
+}
+
+function renderGrid(reset){
+  var grid=document.getElementById("pk-grid");
+  var status=document.getElementById("pk-status");
+  var moreBtn=document.getElementById("pk-more");
+  if(reset){grid.textContent="";shown=0}
+  var list=filteredList();
+  status.textContent=list.length+" Pokémon"+(currentFilter?" encontrados":"");
+  var slice=list.slice(shown,shown+pageSize);
+  slice.forEach(function(p){
+    var card=el("div","pk-card");
+    card.dataset.name=p.n;
+    if(selected.indexOf(p.n)>=0)card.classList.add("selected");
+    var img=document.createElement("img");
+    img.src=spriteUrl(p.id);
+    img.alt=p.n;
+    img.loading="lazy";
+    img.onerror=function(){this.style.visibility="hidden"};
+    card.appendChild(img);
+    card.appendChild(el("div","pk-id","#"+p.id));
+    card.appendChild(el("div","pk-name",p.n));
+    var actions=el("div","pk-actions");
+    var infoBtn=el("button","pk-info","Stats");
+    infoBtn.type="button";
+    infoBtn.onclick=function(e){e.stopPropagation();openStats(p)};
+    actions.appendChild(infoBtn);
+    card.appendChild(actions);
+    card.onclick=function(){toggleSelect(p.n)};
+    grid.appendChild(card);
+  });
+  shown+=slice.length;
+  moreBtn.hidden=shown>=list.length;
+}
+
+/* --- Stats modal (toda la línea evolutiva) --- */
+function collectChain(node, list){
+  list.push(node.species);
+  if(node.evolves_to && node.evolves_to.length){
+    // Main branch first
+    collectChain(node.evolves_to[0], list);
+  }
+  return list;
+}
+
+function openStats(p){
+  var modal=document.getElementById("stat-modal");
+  var body=document.getElementById("modal-body");
+  modal.hidden=false;
+  body.innerHTML='<div class="modal-loading">Cargando línea evolutiva y estadísticas…</div>';
+
+  var key=apiName(p.n);
+  if(statCache[key]){renderStatModal(statCache[key],p);return}
+
+  function loadStages(speciesNames){
+    return Promise.all(speciesNames.map(function(sp){
+      return fetch("https://pokeapi.co/api/v2/pokemon/"+sp.name+"/").then(function(r){
+        if(!r.ok)throw new Error("poke");
+        return r.json();
+      }).then(function(poke){
+        return {api:sp.name, display:displayName(sp.name), poke:poke};
+      });
+    }));
+  }
+
+  fetch("https://pokeapi.co/api/v2/pokemon-species/"+p.id+"/")
+    .then(function(r){if(!r.ok)throw new Error("species");return r.json()})
+    .then(function(species){
+      if(!species.evolution_chain || !species.evolution_chain.url){
+        return fetch("https://pokeapi.co/api/v2/pokemon/"+key+"/").then(function(r){return r.json()}).then(function(poke){
+          return {stages:[{api:key, display:p.n, poke:poke}], clicked:key};
+        });
+      }
+      return fetch(species.evolution_chain.url).then(function(r){return r.json()}).then(function(chainData){
+        var speciesList=collectChain(chainData.chain, []);
+        return loadStages(speciesList).then(function(stages){
+          return {stages:stages, clicked:key};
+        });
+      });
+    })
+    .then(function(data){
+      statCache[key]=data;
+      renderStatModal(data,p);
+    })
+    .catch(function(){
+      fetch("https://pokeapi.co/api/v2/pokemon/"+key+"/")
+        .then(function(r){if(!r.ok)throw new Error("poke");return r.json()})
+        .then(function(poke){
+          var data={stages:[{api:key, display:p.n, poke:poke}], clicked:key};
+          statCache[key]=data;
+          renderStatModal(data,p);
+        })
+        .catch(function(){
+          body.innerHTML='<div class="modal-error">No se pudieron cargar las estadísticas.<br>Comprueba tu conexión a internet.</div>';
+        });
+    });
+}
+
+function stageStatsHtml(stage, isLast, isClicked){
+  var poke=stage.poke;
+  var statsMap={hp:0,attack:0,defense:0,"special-attack":0,"special-defense":0,speed:0};
+  poke.stats.forEach(function(s){statsMap[s.stat.name]=s.base_stat});
+  var total=poke.stats.reduce(function(a,s){return a+s.base_stat},0);
+  var labels=[
+    {k:"hp",l:"PS"},{k:"attack",l:"Atq"},{k:"defense",l:"Def"},
+    {k:"special-attack",l:"AtEs"},{k:"special-defense",l:"DfEs"},{k:"speed",l:"Vel"}
+  ];
+  var maxStat=180;
+  var typesHtml=poke.types.map(function(t){
+    return '<span class="type-'+t.type.name+'">'+t.type.name+'</span>';
+  }).join("");
+  var cls="evo-stage"+(isLast?" final":"")+(isClicked?" current":"");
+  var badge=isLast?'<span class="evo-badge final">Fase final</span>':(isClicked?'<span class="evo-badge base">Seleccionado</span>':'');
+  var rows=labels.map(function(x){
+    var v=statsMap[x.k];
+    var pct=Math.min(100,Math.round(v/maxStat*100));
+    return '<div class="stat-row"><span class="stat-name">'+x.l+'</span><div class="stat-bar"><i style="width:'+pct+'%"></i></div><span class="stat-val">'+v+'</span></div>';
+  }).join("");
+
+  return '<div class="'+cls+'" data-add="'+stage.display+'">'+
+    '<div class="evo-stage-head">'+
+      '<img src="'+(poke.sprites.front_default||spriteUrl(poke.id))+'" alt="'+stage.display+'" onerror="this.style.visibility=\'hidden\'">'+
+      '<div><h4>'+stage.display+badge+'</h4><div class="evo-meta">#'+poke.id+' · BST '+total+'</div>'+
+      '<div class="modal-types" style="margin:4px 0 0">'+typesHtml+'</div></div>'+
+    '</div>'+
+    rows+
+    '<div class="stat-total"><span>Total base</span><span>'+total+'</span></div>'+
+  '</div>';
+}
+
+function renderStatModal(data, original){
+  var body=document.getElementById("modal-body");
+  var stages=data.stages;
+  var clicked=data.clicked;
+  var html='<p class="modal-note" style="margin-top:0">Línea evolutiva completa. Las stats son las <b>base</b> de cada fase.</p>';
+
+  stages.forEach(function(st, i){
+    if(i>0) html+='<div class="evo-arrow">↓</div>';
+    var isLast=i===stages.length-1;
+    var isClicked=(st.api===clicked || apiName(st.display)===clicked || st.display===original.n);
+    html+=stageStatsHtml(st, isLast, isClicked);
+  });
+
+  var finalStage=stages[stages.length-1];
+  var addName=finalStage.display;
+  var inTeam=selected.indexOf(addName)>=0 || selected.indexOf(original.n)>=0;
+
+  html+='<div class="modal-actions">'+
+    '<button type="button" class="btn main" id="modal-add">'+(inTeam?"Quitar del equipo":"Añadir fase final al equipo")+'</button>'+
+    '<button type="button" class="btn" id="modal-close-btn">Cerrar</button>'+
+  '</div>';
+
+  body.innerHTML=html;
+
+  document.getElementById("modal-add").onclick=function(){
+    toggleSelect(addName);
+    closeModal();
+  };
+  document.getElementById("modal-close-btn").onclick=closeModal;
+
+  // Allow adding any stage by clicking its card
+  body.querySelectorAll(".evo-stage").forEach(function(box){
+    box.style.cursor="pointer";
+    box.title="Clic para añadir/quitar del equipo";
+    box.addEventListener("click",function(){
+      toggleSelect(box.dataset.add);
+      closeModal();
+    });
+  });
+}
+
+function closeModal(){
+  document.getElementById("stat-modal").hidden=true;
+}
+document.getElementById("modal-close").onclick=closeModal;
+document.getElementById("stat-modal").addEventListener("click",function(e){
+  if(e.target===this)closeModal();
+});
+document.addEventListener("keydown",function(e){
+  if(e.key==="Escape")closeModal();
+});
+
+document.getElementById("pk-search").addEventListener("input",function(){
+  currentFilter=this.value;
+  renderGrid(true);
+});
+document.getElementById("pk-more").onclick=function(){renderGrid(false)};
+document.getElementById("sel-clear").onclick=function(){
+  selected=[];
+  updateSelBar();
+  document.querySelectorAll(".pk-card.selected").forEach(function(c){c.classList.remove("selected")});
+};
+document.getElementById("sel-create").onclick=function(){
+  if(!selected.length)return;
+  document.getElementById("n").value="Equipo Pokédex";
+  var inputs=document.querySelectorAll(".slot");
+  for(var i=0;i<6;i++){
+    inputs[i].value=selected[i]||"";
+  }
+  selected=[];
+  updateSelBar();
+  go("equipos");
+  setTimeout(function(){document.getElementById("n").focus();document.getElementById("n").select()},100);
+};
+
+// Initial pokédex render when tab is first opened
+var pokedexReady=false;
+function ensurePokedex(){
+  if(pokedexReady)return;
+  pokedexReady=true;
+  document.getElementById("pk-status").textContent=POKEDEX.length+" Pokémon disponibles";
+  renderGrid(true);
+}
+
+var tabs=[].slice.call(document.querySelectorAll("nav button"));
+function go(id){
+if(!document.getElementById(id))id="equipos";
+tabs.forEach(function(b){b.setAttribute("aria-selected",b.dataset.tab===id)});
+["equipos","pokedex","usados","torneos","comunidad","campeonatos","enlaces"].forEach(function(s){document.getElementById(s).hidden=s!==id});
+if(id==="pokedex")ensurePokedex();
+if(id==="torneos"){renderTourList();hideTourDetail()}
+try{history.replaceState(null,"","#"+id)}catch(e){}}
+tabs.forEach(function(b){b.onclick=function(){go(b.dataset.tab)}});
+
+/* ===== Torneos ===== */
+var TOUR_KEY="pkmn-tournaments";
+function loadTours(){try{var r=localStorage.getItem(TOUR_KEY);var a=r?JSON.parse(r):[];return Array.isArray(a)?a:[]}catch(e){return []}}
+function saveTours(a){try{localStorage.setItem(TOUR_KEY,JSON.stringify(a))}catch(e){}}
+var tours=loadTours();
+var currentTourId=null;
+
+function findTour(code){
+  code=(code||"").toUpperCase();
+  return tours.find(function(t){return t.code===code});
+}
+function isCreator(t){
+  return t && t.creatorId === getMyId();
+}
+function getMyId(){
+  try{
+    var id=localStorage.getItem("pkmn-my-id");
+    if(!id){id="u_"+Math.random().toString(36).slice(2,10);localStorage.setItem("pkmn-my-id",id)}
+    return id;
+  }catch(e){return "local"}
+}
+function getMyNick(){
+  try{return localStorage.getItem("pkmn-my-nick")||""}catch(e){return ""}
+}
+function setMyNick(n){try{localStorage.setItem("pkmn-my-nick",n)}catch(e){}}
+
+function hideTourDetail(){
+  currentTourId=null;
+  var d=document.getElementById("tour-detail");
+  if(d){d.hidden=true;d.textContent=""}
+}
+
+function renderTourList(){
+  var box=document.getElementById("tour-list");
+  if(!box)return;
+  box.textContent="";
+  if(!tours.length){
+    box.appendChild(el("div","empty","Aún no tienes torneos. Crea uno o únete con un código de un amigo."));
+    return;
+  }
+  box.appendChild(el("h2","sub","Mis torneos"));
+  tours.forEach(function(t){
+    var card=el("div","tour-card");
+    card.appendChild(el("h3",null,t.name));
+    var meta=t.fmt+" · Código: "+t.code+" · "+(t.participants?t.participants.length:0)+" jugadores";
+    if(isCreator(t))meta+=" · Eres el organizador";
+    card.appendChild(el("p","tour-meta",meta));
+    if(t.notes)card.appendChild(el("p",null,t.notes));
+    var actions=el("div","tour-actions");
+    var open=el("button","btn main","Ver / actualizar");open.type="button";
+    open.onclick=function(){showTourDetail(t.code)};
+    actions.appendChild(open);
+    var copy=el("button","btn","Copiar código");copy.type="button";
+    copy.onclick=function(){
+      try{navigator.clipboard.writeText(t.code);copy.textContent="¡Copiado!";setTimeout(function(){copy.textContent="Copiar código"},1500)}
+      catch(e){prompt("Código:",t.code)}
+    };
+    actions.appendChild(copy);
+    if(isCreator(t)){
+      var del=el("button","btn del","Eliminar");del.type="button";
+      del.onclick=function(){
+        if(!confirm("¿Eliminar el torneo «"+t.name+"»?"))return;
+        tours=tours.filter(function(x){return x.code!==t.code});
+        saveTours(tours);hideTourDetail();renderTourList();
+      };
+      actions.appendChild(del);
+    }
+    card.appendChild(actions);
+    box.appendChild(card);
+  });
+}
+
+function showTourDetail(code){
+  var t=findTour(code);
+  if(!t){alert("Torneo no encontrado");return}
+  currentTourId=t.code;
+  var box=document.getElementById("tour-detail");
+  box.hidden=false;
+  box.textContent="";
+  box.appendChild(el("h2",null,t.name));
+  var head=el("p","tour-meta",t.fmt+(t.notes?" · "+t.notes:""));
+  box.appendChild(head);
+
+  var codeBox=el("div","code-box");
+  codeBox.appendChild(el("span",null,"Código de invitación:"));
+  var codeSpan=el("span","code",t.code);
+  codeBox.appendChild(codeSpan);
+  var copyBtn=el("button","btn","Copiar");copyBtn.type="button";
+  copyBtn.onclick=function(){
+    try{navigator.clipboard.writeText(t.code);copyBtn.textContent="¡Copiado!"}catch(e){prompt("Código:",t.code)}
+  };
+  codeBox.appendChild(copyBtn);
+  box.appendChild(codeBox);
+
+  box.appendChild(el("h2","sub","Participantes"));
+  var ul=el("ul","participant-list");
+  (t.participants||[]).forEach(function(p,idx){
+    var li=el("li");
+    var left=el("span","p-name",p.nick);
+    if(p.isCreator){var b=el("span","badge creator","Organizador");left.appendChild(document.createTextNode(" "));left.appendChild(b)}
+    if(p.id===getMyId()){var y=el("span","badge you","Tú");left.appendChild(document.createTextNode(" "));left.appendChild(y)}
+    li.appendChild(left);
+    if(isCreator(t) && !p.isCreator){
+      var rm=el("button","btn del","Quitar");rm.type="button";
+      rm.onclick=function(){
+        t.participants.splice(idx,1);
+        saveTours(tours);showTourDetail(t.code);renderTourList();
+      };
+      li.appendChild(rm);
+    }
+    ul.appendChild(li);
+  });
+  box.appendChild(ul);
+
+  if(isCreator(t)){
+    var addRow=el("div","join-row");
+    var lab=el("label",null,"Añadir participante");
+    var inp=document.createElement("input");inp.id="add-part-nick";inp.maxLength=30;inp.placeholder="Nombre del jugador";
+    lab.appendChild(inp);addRow.appendChild(lab);
+    var addBtn=el("button","btn","Añadir");addBtn.type="button";
+    addBtn.onclick=function(){
+      var nick=(inp.value||"").trim();
+      if(!nick)return;
+      if(t.participants.some(function(p){return p.nick.toLowerCase()===nick.toLowerCase()})){alert("Ya está en el torneo");return}
+      t.participants.push({id:"ext_"+Date.now(),nick:nick,wins:0,losses:0,isCreator:false});
+      saveTours(tours);showTourDetail(t.code);renderTourList();
+    };
+    addRow.appendChild(addBtn);
+    box.appendChild(addRow);
+  }
+
+  box.appendChild(el("h2","sub","Clasificación"));
+  var table=document.createElement("table");table.className="standings";
+  var thead=document.createElement("thead");
+  var hr=document.createElement("tr");
+  ["#","Jugador","V","D","Dif"].forEach(function(h){var th=document.createElement("th");th.textContent=h;hr.appendChild(th)});
+  thead.appendChild(hr);table.appendChild(thead);
+  var tbody=document.createElement("tbody");
+  var sorted=(t.participants||[]).slice().sort(function(a,b){
+    var da=(a.wins||0)-(a.losses||0), db=(b.wins||0)-(b.losses||0);
+    if(db!==da)return db-da;
+    return (b.wins||0)-(a.wins||0);
+  });
+  sorted.forEach(function(p,i){
+    var tr=document.createElement("tr");
+    var rank=document.createElement("td");rank.className="rank";rank.textContent=String(i+1);tr.appendChild(rank);
+    var nameTd=document.createElement("td");nameTd.textContent=p.nick;tr.appendChild(nameTd);
+    if(isCreator(t)){
+      var wTd=document.createElement("td");
+      var wIn=document.createElement("input");wIn.type="number";wIn.min=0;wIn.value=p.wins||0;
+      wIn.onchange=function(){p.wins=parseInt(wIn.value,10)||0;saveTours(tours);showTourDetail(t.code)};
+      wTd.appendChild(wIn);tr.appendChild(wTd);
+      var lTd=document.createElement("td");
+      var lIn=document.createElement("input");lIn.type="number";lIn.min=0;lIn.value=p.losses||0;
+      lIn.onchange=function(){p.losses=parseInt(lIn.value,10)||0;saveTours(tours);showTourDetail(t.code)};
+      lTd.appendChild(lIn);tr.appendChild(lTd);
+    }else{
+      var wTd=document.createElement("td");wTd.textContent=String(p.wins||0);tr.appendChild(wTd);
+      var lTd=document.createElement("td");lTd.textContent=String(p.losses||0);tr.appendChild(lTd);
+    }
+    var dif=document.createElement("td");dif.textContent=String((p.wins||0)-(p.losses||0));tr.appendChild(dif);
+    tbody.appendChild(tr);
+  });
+  table.appendChild(tbody);
+  box.appendChild(table);
+
+  if(isCreator(t)){
+    var note=el("p","note","Como organizador puedes editar victorias y derrotas. Los cambios se guardan en este navegador. Comparte el código con tus amigos; ellos se unen y ven la clasificación. Para sincronizar entre dispositivos, exporta el torneo (botón abajo) y envíales el JSON.");
+    box.appendChild(note);
+    var exp=el("button","btn","Exportar torneo (JSON)");exp.type="button";
+    exp.onclick=function(){
+      var data=JSON.stringify(t,null,2);
+      try{navigator.clipboard.writeText(data);alert("JSON copiado al portapapeles. Envíalo a tus amigos para que lo importen.")}
+      catch(e){prompt("Copia este JSON:",data)}
+    };
+    box.appendChild(exp);
+  }
+
+  var impLab=el("label",null,"Importar torneo (pegar JSON de un amigo)");
+  var impArea=document.createElement("textarea");impArea.rows=3;impArea.placeholder='{"code":"...","name":"..."}';
+  impLab.appendChild(impArea);
+  box.appendChild(impLab);
+  var impBtn=el("button","btn","Importar");impBtn.type="button";
+  impBtn.onclick=function(){
+    try{
+      var obj=JSON.parse(impArea.value);
+      if(!obj||!obj.code||!obj.name)throw new Error("JSON inválido");
+      var existing=findTour(obj.code);
+      if(existing){
+        if(!confirm("Ya tienes un torneo con ese código. ¿Sobrescribir?"))return;
+        tours=tours.filter(function(x){return x.code!==obj.code});
+      }
+      tours.unshift(obj);
+      saveTours(tours);renderTourList();showTourDetail(obj.code);
+      alert("Torneo importado: "+obj.name);
+    }catch(e){alert("No se pudo importar. Revisa el JSON.")}
+  };
+  box.appendChild(impBtn);
+
+  box.scrollIntoView({behavior:"smooth",block:"start"});
+}
+
+document.getElementById("tour-form").addEventListener("submit",function(e){
+  e.preventDefault();
+  var name=document.getElementById("tour-name").value.trim();
+  var fmt=document.getElementById("tour-fmt").value;
+  var creator=document.getElementById("tour-creator").value.trim();
+  var notes=document.getElementById("tour-notes").value.trim();
+  if(!name||!creator)return;
+  setMyNick(creator);
+  var code=genCode(6);
+  while(findTour(code))code=genCode(6);
+  var tour={
+    code:code,
+    name:name,
+    fmt:fmt,
+    notes:notes,
+    creatorId:getMyId(),
+    createdAt:Date.now(),
+    participants:[{id:getMyId(),nick:creator,wins:0,losses:0,isCreator:true}]
+  };
+  tours.unshift(tour);
+  saveTours(tours);
+  e.target.reset();
+  document.getElementById("tour-creator").value=creator;
+  renderTourList();
+  showTourDetail(code);
+  alert("Torneo creado. Código: "+code+"\nCompártelo con tus amigos para que se unan.");
+});
+
+document.getElementById("tour-join-btn").onclick=function(){
+  var code=(document.getElementById("tour-join-code").value||"").trim().toUpperCase();
+  var nick=(document.getElementById("tour-join-nick").value||"").trim() || getMyNick();
+  if(!code){alert("Introduce el código del torneo");return}
+  if(!nick){alert("Escribe tu nombre de entrenador");return}
+  setMyNick(nick);
+  var t=findTour(code);
+  if(!t){
+    alert("No se encontró el torneo con código "+code+" en este dispositivo.\n\nPide al organizador que te envíe el JSON exportado del torneo e impórtalo en la vista del torneo, o que lo cree aquí y compartáis el mismo navegador/dispositivo de prueba. Los códigos funcionan cuando el torneo está guardado localmente.");
+    return;
+  }
+  if(t.participants.some(function(p){return p.id===getMyId() || p.nick.toLowerCase()===nick.toLowerCase()})){
+    alert("Ya estás en este torneo.");
+    showTourDetail(code);
+    return;
+  }
+  t.participants.push({id:getMyId(),nick:nick,wins:0,losses:0,isCreator:false});
+  saveTours(tours);
+  document.getElementById("tour-join-code").value="";
+  renderTourList();
+  showTourDetail(code);
+  alert("¡Te has unido a «"+t.name+"»!");
+};
+
+/* Prefill nick */
+(function(){
+  var n=getMyNick();
+  if(n){
+    var c=document.getElementById("tour-creator");
+    var j=document.getElementById("tour-join-nick");
+    if(c && !c.value)c.value=n;
+    if(j && !j.value)j.value=n;
+  }
+})();
+
+/* ===== Comunidad ===== */
+var COM_KEY="pkmn-community";
+function loadCom(){try{var r=localStorage.getItem(COM_KEY);var a=r?JSON.parse(r):[];return Array.isArray(a)?a:[]}catch(e){return []}}
+function saveCom(a){try{localStorage.setItem(COM_KEY,JSON.stringify(a))}catch(e){}}
+var comPosts=loadCom();
+function renderCom(){
+  var box=document.getElementById("com-list");
+  if(!box)return;
+  box.textContent="";
+  if(!comPosts.length){
+    box.appendChild(el("div","empty","Aún no hay publicaciones locales. ¡Sé el primero en compartir tu perfil!"));
+    return;
+  }
+  comPosts.forEach(function(p,i){
+    var d=el("div","com-post");
+    d.appendChild(el("h3",null,p.nick));
+    var meta=[];
+    if(p.loc)meta.push(p.loc);
+    if(p.fmt)meta.push(p.fmt);
+    if(p.social)meta.push(p.social);
+    d.appendChild(el("p","com-meta",meta.join(" · ")||"Entrenador"));
+    if(p.team)d.appendChild(el("p","com-team","Equipo: "+p.team));
+    if(p.msg)d.appendChild(el("p","com-msg",p.msg));
+    var del=el("button","btn del","Eliminar");del.type="button";
+    del.onclick=function(){comPosts.splice(i,1);saveCom(comPosts);renderCom()};
+    d.appendChild(del);
+    box.appendChild(d);
+  });
+}
+var comForm=document.getElementById("com-form");
+if(comForm){
+  comForm.addEventListener("submit",function(e){
+    e.preventDefault();
+    var post={
+      nick:document.getElementById("com-nick").value.trim(),
+      loc:document.getElementById("com-loc").value.trim(),
+      fmt:document.getElementById("com-fmt").value,
+      team:document.getElementById("com-team").value.trim(),
+      social:document.getElementById("com-social").value.trim(),
+      msg:document.getElementById("com-msg").value.trim(),
+      ts:Date.now()
+    };
+    if(!post.nick)return;
+    comPosts.unshift(post);
+    saveCom(comPosts);
+    renderCom();
+    e.target.reset();
+  });
+}
+renderCom();
+
+renderMine();renderEx();go((location.hash||"").slice(1)||"equipos");
+})();
+</script>
+</body>
+</html>
